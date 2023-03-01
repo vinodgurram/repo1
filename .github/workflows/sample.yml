@@ -1,0 +1,7 @@
+name: hello world
+on: push
+jobs:
+  runs-on: ubantu-latest
+  steps:
+    - name: my-step
+      run: echo "hello-world"
